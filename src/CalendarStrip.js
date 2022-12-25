@@ -382,7 +382,7 @@ class CalendarStrip extends Component {
     if (scrollable) {
       numVisibleDays = Math.floor(csWidth / dayComponentWidth);
       // Scroller requires spacing between days
-      marginHorizontal = Math.round(dayComponentWidth * 0.05);
+      marginHorizontal = Math.round(dayComponentWidth * 0.02);
       dayComponentWidth = Math.round(dayComponentWidth * 0.9);
     }
     let monthFontSize = Math.round(dayComponentWidth / 3.2);
